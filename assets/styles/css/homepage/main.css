@@ -1,5 +1,23 @@
+#main {
+  overflow: hidden;
+}
+
 .blue-square-background {
+  width: 500px;
+  height: 500px;
   background-color: #82afbf;
+  transform: rotateZ(-60deg) scale(3) translate(50px, 100px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.clear-background {
+  width: 100vw;
+  height: 50px;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

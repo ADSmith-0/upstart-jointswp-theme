@@ -11,6 +11,7 @@ get_header();
         get_template_part('/parts/custom/homepage/banner-and-socials');
         get_template_part('/parts/custom/homepage/subtitle');
         get_template_part('/parts/custom/homepage/');
+        get_template_part('/parts/custom/homepage/description-block');
     ?>
     <div class="clear-background"></div>
 </main>

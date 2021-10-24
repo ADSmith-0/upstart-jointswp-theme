@@ -6,7 +6,7 @@
   width: 500px;
   height: 500px;
   background-color: #82afbf;
-  transform: rotateZ(-60deg) scale(3) translate(50px, 100px);
+  transform: rotateZ(-60deg) scale(3) translate(12px, 90px);
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
 }
 
 .clear-background {
-  width: 100vw;
+  width: 100%;
   height: 50px;
   background-color: #fff;
 }

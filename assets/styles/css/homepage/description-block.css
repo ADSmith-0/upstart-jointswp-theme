@@ -1,0 +1,16 @@
+#description-block {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#d-b-col-1 #d-b-title {
+  font-size: 32px;
+}
+#d-b-col-1 p {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=description-block.css.map */

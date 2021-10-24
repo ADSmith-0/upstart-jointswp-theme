@@ -14,8 +14,8 @@ media="<?php echo ($async_css) ? 'print' : 'all';?>"
 onload="<?php echo ($async_css) ? "this.media='all';this.onload='null'": "";?>">
 
 <section id="description-block">
+    <img id="d-b-upstart-logo-alt" src="<?php echo get_template_directory_uri();?>/assets/images/Upstart-logo-alt.png" alt="Upstart Logo alt" <?php echo ($logo_lazy) ? 'loading="lazy"' : ""; ?> width="195" height="224">
     <section id="d-b-col-1">
-        <img src="./" alt="Upstart Logo" <?php echo ($logo_lazy) ? 'loading="lazy"' : ""; ?>>
         <h3 id="d-b-title"><?php echo $title; ?></h3>
         <?php echo $description; ?>
     </section>

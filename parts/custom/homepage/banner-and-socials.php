@@ -18,22 +18,22 @@ $linkedin_link = get_field('linkedin_link');
         <section id="b-a-s-socials">
             <?php if($twitter_link):?>
                 <a href="http://twitter.com">
-                    <img src="" alt="Twitter Icon">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" alt="Twitter Icon">
                 </a>
             <?php endif; ?>
             <?php if($facebook_link):?>
                 <a href="http://facebook.com">
-                    <img src="" alt="Facebook Icon">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png" alt="Facebook Icon">
                 </a>
             <?php endif; ?>
             <?php if($instagram_link):?>
                 <a href="http://instagram.com">
-                    <img src="" alt="Instagram Icon">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/instagram.png" alt="Instagram Icon">
                 </a>
             <?php endif; ?>
             <?php if($linkedin_link):?>
                 <a href="http://linkedin.com">
-                    <img src="" alt="LinkedIn Icon">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/linkedin.png" alt="LinkedIn Icon">
                 </a>
             <?php endif; ?>
         </section>

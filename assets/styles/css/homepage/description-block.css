@@ -11,14 +11,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  place-items: center;
   gap: 20px;
+  padding: 100px 0;
+  position: relative;
 }
-
-#d-b-col-1 #d-b-title {
+#description-block #d-b-title {
   font-size: 35px;
 }
-#d-b-col-1 p {
+#description-block p {
   font-size: 17px;
+}
+
+#d-b-upstart-logo-alt {
+  position: absolute;
+  top: 20%;
+  left: -10%;
 }
 
 /*# sourceMappingURL=description-block.css.map */

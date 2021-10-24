@@ -1,0 +1,42 @@
+@use '../_global.sass'
+
+#events
+    width: 80%
+    margin: 0 auto
+    
+#events-title
+    font-size: global.$font-large
+    margin-bottom: 40px
+
+#events-grid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 50px
+
+.events-card
+    display: grid
+    grid-template-columns: 1fr 1fr
+    place-items: center
+    gap: 30px
+
+.e-c-date
+    font-size: global.$font-medium
+
+.arrow-btn
+    color: #000
+    font-weight: bold
+    position: relative
+
+.arrow-btn:hover
+    color: #000
+
+.arrow-btn::before
+    display: block
+    position: absolute
+    content: "➞"
+    font-size: global.$font-large
+    color: transparent
+    text-shadow: 0 0 1px global.$primary-colour
+    bottom: -37px
+    left: -10px
+    z-index: -1

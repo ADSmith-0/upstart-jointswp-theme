@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 54vw;
   height: 52vw;
   background-color: #82afbf;
-  transform: rotateZ(-60deg) scale(2);
+  transform: rotateZ(-62deg) scale(2) scaleX(1.9) translateX(-13vw);
   position: absolute;
   top: 0;
   left: 0;

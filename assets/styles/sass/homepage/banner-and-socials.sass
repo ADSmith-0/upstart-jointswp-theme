@@ -1,16 +1,36 @@
 @use '../_global.sass'
 
 #banner-and-socials
-    width: 60%
+    width: 70%
+    min-height: 900px
+    display: flex
+    flex-direction: column
+    justify-content: center
     margin: 0 auto
+    position: relative
+
+#b-a-s-content
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    gap: 20px
+    width: 60%
 
 #b-a-s-title
-    color: #000
-    font-size: global.$font-large
-    
+    color: #fff
+    font-size: global.$font-extra-large
+
+#b-a-s-img
+    position: absolute
+    z-index: -1
+    right: -80px
+    border-radius: 5px
+    filter: brightness(85%)
+
 #b-a-s-socials
     display: flex
     flex-direction: row
     justify-content: space-between
-    width: 40%
+    width: 60%
     margin-right: auto

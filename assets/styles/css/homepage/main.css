@@ -2,19 +2,23 @@
   font-family: "Noto Serif", serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 #main {
   overflow: hidden;
 }
 
 .blue-square-background {
-  width: 500px;
-  height: 500px;
+  width: 54vw;
+  height: 52vw;
   background-color: #82afbf;
-  transform: rotateZ(-60deg) scale(3) translate(12px, 90px);
+  transform: rotateZ(-60deg) scale(2);
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -10;
   overflow: hidden;
 }
 

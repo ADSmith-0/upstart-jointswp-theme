@@ -8,9 +8,7 @@
  */			
  ?>	
             <footer class="footer" role="contentinfo">
-                <nav role="navigation">
-                    <?php get_template_part('/parts/custom/global/footer');?>
-                </nav>			
+                <?php get_template_part('/parts/custom/global/footer');?>			
             </footer>
 		<?php wp_footer(); ?>
 	</body>

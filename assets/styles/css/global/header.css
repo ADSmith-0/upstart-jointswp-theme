@@ -16,4 +16,14 @@
   letter-spacing: -9px;
 }
 
+@media (max-width: 480px) {
+  #navbar img {
+    height: 44px;
+  }
+
+  #menu {
+    font-size: 22px;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */

@@ -1,0 +1,50 @@
+*, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Noto Serif", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+#footer-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#footer-grid * {
+  font-family: "Open Sans", serif;
+  color: #fff;
+}
+
+.footer-col {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.footer-col #footer-col-1-block-1 img {
+  margin-bottom: 20px;
+}
+
+#footer-col-2-title {
+  color: #82afbf;
+  font-family: "Noto Serif", serif;
+}
+
+#footer-col-2-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#footer-col-2-links a {
+  font-size: 21px;
+  padding: 10px 0;
+}
+
+#footer-col-2 .footer-divider {
+  color: #82afbf;
+}
+
+/*# sourceMappingURL=footer.css.map */

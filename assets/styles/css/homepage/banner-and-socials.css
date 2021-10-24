@@ -38,12 +38,40 @@ h1, h2, h3, h4, h5, h6 {
   filter: brightness(85%);
 }
 
-#b-a-s-socials {
+.socials {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 30%;
   margin-right: auto;
+}
+
+@media (max-width: 480px) {
+  #banner-and-socials {
+    min-height: 0;
+    width: 90%;
+    padding-bottom: 50px;
+  }
+
+  #b-a-s-content {
+    width: 100%;
+  }
+
+  #b-a-s-title {
+    font-size: 35px;
+  }
+
+  #b-a-s-img {
+    position: static;
+  }
+
+  .socials {
+    width: 60%;
+  }
+  .socials img {
+    height: 22px;
+    width: 22px;
+  }
 }
 
 /*# sourceMappingURL=banner-and-socials.css.map */

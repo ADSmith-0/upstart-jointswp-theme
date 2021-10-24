@@ -1,0 +1,42 @@
+@use '../_global.sass'
+
+#footer-grid
+    // display: grid
+    // grid-template-columns: 1fr 1fr
+    // gap: 120px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    width: 80%
+    margin: auto
+    
+    *
+        font-family: 'Open Sans', serif
+        color: #fff
+
+.footer-col
+    width: 40%
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    gap: 40px
+
+    #footer-col-1-block-1
+        img
+            margin-bottom: 20px
+
+#footer-col-2-title
+    color: global.$primary-colour
+    font-family: global.$font-family
+
+#footer-col-2-links
+    display: grid
+    grid-template-columns: 1fr 1fr
+
+    a 
+        font-size: 21px
+        padding: 10px 0
+
+#footer-col-2
+    .footer-divider
+        color: global.$primary-colour

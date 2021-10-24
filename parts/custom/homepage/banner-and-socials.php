@@ -15,7 +15,7 @@ $linkedin_link = get_field('linkedin_link');
     <img id="b-a-s-img" src="<?php echo $image?>" alt="<?php echo $image_alt?>" height="708" width="810">
     <div id="b-a-s-content">
         <h1 id="b-a-s-title"><?php echo $title?></h1>
-        <section id="b-a-s-socials">
+        <section class="socials">
             <?php if($twitter_link):?>
                 <a href="http://twitter.com">
                     <img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" alt="Twitter Icon">

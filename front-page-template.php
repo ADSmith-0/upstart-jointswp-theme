@@ -13,7 +13,7 @@ get_header();
         get_template_part('/parts/custom/homepage/');
         get_template_part('/parts/custom/homepage/description-block');
     ?>
-    <div class="clear-background"></div>
+    <!-- <div class="clear-background"></div> -->
 </main>
 
 <?php

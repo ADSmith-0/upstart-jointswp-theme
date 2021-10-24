@@ -1,0 +1,43 @@
+#comments {
+  width: 40%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.comment {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px;
+}
+.comment .comment-name, .comment .comment-job-title {
+  margin: 0;
+  font-family: "Open Sans", serif;
+  color: #58595B;
+  font-weight: bold;
+}
+
+.comment.hidden {
+  display: none;
+}
+
+#comments-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#comments-buttons button {
+  font-family: "Open Sans", serif;
+  position: relative;
+  cursor: pointer;
+}
+#comments-buttons .btn-wrapper::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 52px;
+  border: 1px solid #80afbf;
+  height: 0;
+}
+
+/*# sourceMappingURL=comments.css.map */

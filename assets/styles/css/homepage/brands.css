@@ -1,0 +1,14 @@
+#brands-wrapper {
+  background-color: #eaeff1;
+  padding: 50px 0;
+}
+
+#brands {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+/*# sourceMappingURL=brands.css.map */

@@ -14,6 +14,8 @@ get_header();
         get_template_part('/parts/custom/homepage/description-block');
         get_template_part('/parts/custom/homepage/events');
         get_template_part('/parts/custom/homepage/news');
+        get_template_part('/parts/custom/homepage/comments');
+        get_template_part('/parts/custom/homepage/brands');
     ?>
 </main>
 

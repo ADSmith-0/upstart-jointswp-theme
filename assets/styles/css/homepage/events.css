@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 #events {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 #events-title {
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottom-btn {
-  margin: 50px 0;
+  top: 75px;
 }
 
 /*# sourceMappingURL=events.css.map */

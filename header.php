@@ -8,9 +8,7 @@
 ?>
 
 <!doctype html>
-
   <html class="no-js"  <?php language_attributes(); ?>>
-
 	<head>
 		<meta charset="utf-8">
 		
@@ -32,21 +30,10 @@
 
 		<?php wp_head(); ?>
 
+        <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/styles/css/global/header.css">
 	</head>
 			
 	<body <?php body_class(); ?>>
-
-		<div class="off-canvas-wrapper">
-			
-			<!-- Load off-canvas container. Feel free to remove if not using. -->			
-			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
-			
-			<div class="off-canvas-content" data-off-canvas-content>
-				
-				<header class="header" role="banner">
-							
-					 <!-- This navs will be applied to the topbar, above all content 
-						  To see additional nav styles, visit the /parts directory -->
-					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-	 	
-				</header> <!-- end .header -->
+        <header class="header" role="banner">
+            <?php get_template_part('/parts/custom/global/header'); ?>
+        </header> <!-- end .header -->

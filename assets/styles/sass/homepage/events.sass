@@ -1,8 +1,10 @@
 @use '../_global.sass'
+@use '../_arrow-btn.sass'
 
 #events
     width: 80%
     margin: 0 auto
+    padding-bottom: 100px
     
 #events-title
     font-size: global.$font-large
@@ -22,21 +24,5 @@
 .e-c-date
     font-size: global.$font-medium
 
-.arrow-btn
-    color: #000
-    font-weight: bold
-    position: relative
-
-.arrow-btn:hover
-    color: #000
-
-.arrow-btn::before
-    display: block
-    position: absolute
-    content: "➞"
-    font-size: global.$font-large
-    color: transparent
-    text-shadow: 0 0 1px global.$primary-colour
-    bottom: -37px
-    left: -10px
-    z-index: -1
+.bottom-btn
+    margin: 50px 0

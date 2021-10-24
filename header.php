@@ -12,7 +12,7 @@
 	<head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"> 
 		<meta charset="utf-8">
 		
 		<!-- Force IE to use the latest rendering engine available -->

@@ -1,0 +1,36 @@
+@use '../_global.sass'
+@use '../_arrow-btn.sass'
+
+#news-background-wrapper
+    background-color: #eaeff1
+
+#news
+    width: 90%
+    margin-left: auto
+    padding: 100px 0
+    
+#news-title
+    font-size: global.$font-large
+    margin-bottom: 40px
+
+#news-carousel
+    display: flex
+    flex-direction: row
+    gap: 50px
+    padding: 70px 0
+    overflow-x: scroll
+    overflow-y: hidden
+
+.news-card
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    min-width: 400px
+
+.n-c-img
+    height: 400px
+    width: 400px
+
+.n-c-title
+    font-size: global.$font-medium

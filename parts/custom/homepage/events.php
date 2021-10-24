@@ -17,7 +17,7 @@ function create_card($img, $date, $excerpt, $href){
         <section id="e-c-col-2">
             <h4 class="e-c-date">$date</h4>
             <p class="e-c-excerpt">$excerpt</p>
-            <a class="e-c-btn-find-out-more" href="$href">Find Out more</a>
+            <a class="arrow-btn" href="$href">Find Out more</a>
         </section>
     </section>
     STRING;
@@ -49,5 +49,5 @@ onload="<?php echo ($async_css) ? "this.media='all';this.onload='null'": "";?>">
             if($post_6) echo get_card($post_6);
         ?>
     </section>
-    <a class="arrow-btn" href="/events/">View more Events</a>
+    <a class="arrow-btn bottom-btn" href="/events/">View more Events</a>
 </section>

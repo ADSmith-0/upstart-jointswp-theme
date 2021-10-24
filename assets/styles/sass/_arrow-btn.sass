@@ -1,0 +1,23 @@
+@use '_global.sass'
+
+.arrow-btn
+    color: #000
+    font-weight: bold
+    position: relative
+    font-family: global.$font-family-alt
+    font-size: 22px
+    z-index: 5
+
+.arrow-btn:hover
+    color: #000
+
+.arrow-btn::before
+    display: block
+    position: absolute
+    content: "➞"
+    font-size: global.$font-large
+    color: transparent
+    text-shadow: 0 0 1px global.$primary-colour
+    bottom: -37px
+    left: -10px
+    z-index: 1

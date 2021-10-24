@@ -13,6 +13,7 @@ get_header();
         get_template_part('/parts/custom/homepage/');
         get_template_part('/parts/custom/homepage/description-block');
         get_template_part('/parts/custom/homepage/events');
+        get_template_part('/parts/custom/homepage/news');
     ?>
 </main>
 

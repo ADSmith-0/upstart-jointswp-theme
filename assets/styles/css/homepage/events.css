@@ -32,6 +32,15 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
+@media (max-width: 480px) {
+  .arrow-btn {
+    font-size: 17px;
+  }
+
+  .arrow-btn::before {
+    font-size: 35px;
+  }
+}
 #events {
   width: 80%;
   margin: 0 auto;
@@ -60,8 +69,41 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
 }
 
+.e-c-excerpt {
+  font-family: "Roboto", serif;
+}
+
 .bottom-btn {
   top: 75px;
+}
+
+@media (max-width: 480px) {
+  #events-title {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .events-card {
+    grid-template-columns: 1fr;
+  }
+
+  .events-card:nth-child(n+3) {
+    display: none;
+  }
+
+  .e-c-date {
+    font-size: 20px;
+  }
+
+  .e-c-excerpt {
+    font-size: 17px;
+    line-height: 30px;
+  }
 }
 
 /*# sourceMappingURL=events.css.map */

@@ -9,6 +9,9 @@
   grid-template-columns: auto 1fr;
   gap: 40px;
 }
+.comment p {
+  font-family: "Open Sans", serif;
+}
 .comment .comment-name, .comment .comment-job-title {
   margin: 0;
   font-family: "Open Sans", serif;
@@ -38,6 +41,27 @@
   width: 52px;
   border: 1px solid #80afbf;
   height: 0;
+}
+
+@media (max-width: 480px) {
+  #comments {
+    width: 90%;
+  }
+
+  .comment {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-bottom: 20px;
+  }
+
+  .comment-col-1 img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .comment-col-2 .comment-title, .comment-col-2 p, .comment-col-2 .comment-name, .comment-col-2 comment-job-title {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=comments.css.map */

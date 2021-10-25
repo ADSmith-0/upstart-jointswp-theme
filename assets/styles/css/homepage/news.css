@@ -32,6 +32,15 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
+@media (max-width: 480px) {
+  .arrow-btn {
+    font-size: 17px;
+  }
+
+  .arrow-btn::before {
+    font-size: 35px;
+  }
+}
 #news-background-wrapper {
   background-color: #eaeff1;
 }
@@ -70,6 +79,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .n-c-title {
   font-size: 35px;
+}
+
+.n-c-excerpt {
+  font-family: "Roboto", serif;
+}
+
+@media (max-width: 480px) {
+  #news-title {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .news-card {
+    min-width: 240px;
+  }
+
+  .n-c-img {
+    height: 240px;
+    width: 240px;
+  }
+
+  .n-c-date {
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    color: #2E2E2E;
+  }
+
+  .n-c-title {
+    font-size: 20px;
+  }
+
+  .n-c-excerpt {
+    font-size: 17px;
+    line-height: 33px;
+  }
 }
 
 /*# sourceMappingURL=news.css.map */

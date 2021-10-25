@@ -29,4 +29,39 @@ h1, h2, h3, h4, h5, h6 {
   left: -10%;
 }
 
+#d-b-col-2 img {
+  border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  #description-block-wrapper {
+    background-color: #82afbf;
+  }
+
+  #description-block {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 0;
+    grid-template-columns: 1fr;
+  }
+
+  #d-b-upstart-logo-alt {
+    width: 98px;
+    height: 112px;
+    top: 0;
+    left: 0;
+  }
+
+  #d-b-col-1 #d-b-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  #d-b-col-1 p {
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 33px;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=description-block.css.map */

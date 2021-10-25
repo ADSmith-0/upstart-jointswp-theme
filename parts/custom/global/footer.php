@@ -2,7 +2,7 @@
 <section id="footer-grid">
     <section id="footer-col-1" class="footer-col">
         <section id="footer-col-1-block-1">
-            <img src="<?php echo get_template_directory_uri();?>/assets/images/Upstart-logo.png" alt="Upstart Logo" height="82" width="227">
+            <img src="<?php echo get_template_directory_uri();?>/assets/images/Upstart-logo.png" alt="Upstart Logo">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </section>
         <section id="footer-col-1-block-2" class="socials">

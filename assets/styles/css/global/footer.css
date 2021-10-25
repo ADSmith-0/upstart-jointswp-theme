@@ -47,4 +47,44 @@ h1, h2, h3, h4, h5, h6 {
   color: #82afbf;
 }
 
+@media (max-width: 480px) {
+  #footer-grid {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #footer-col-1 {
+    margin-bottom: 20px;
+  }
+  #footer-col-1 #footer-col-1-block-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer-col-1 #footer-col-1-block-1 p {
+    text-align: center;
+  }
+  #footer-col-1 #footer-col-1-block-2 {
+    margin-right: 0;
+  }
+
+  #footer-col-2 p {
+    display: none;
+  }
+
+  #footer-col-2-title {
+    font-size: 25px;
+  }
+
+  #footer-col-2-links a {
+    text-align: center;
+    gap: 10px;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */

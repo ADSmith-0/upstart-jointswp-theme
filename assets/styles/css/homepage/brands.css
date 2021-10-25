@@ -11,4 +11,13 @@
   place-items: center;
 }
 
+@media (max-width: 480px) {
+  #brands {
+    grid-template-columns: 1fr;
+  }
+  #brands * {
+    padding: 40px 70px;
+  }
+}
+
 /*# sourceMappingURL=brands.css.map */

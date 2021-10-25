@@ -24,5 +24,30 @@
 .e-c-date
     font-size: global.$font-medium
 
+.e-c-excerpt
+    font-family: global.$font-family-alt
+
 .bottom-btn
     top: 75px
+
+@media (max-width: 480px)
+    #events-title
+        font-size: global.$font-medium
+        text-align: center
+        padding: 20px
+
+    #events-grid
+        grid-template-columns: 1fr
+
+    .events-card
+        grid-template-columns: 1fr
+
+    .events-card:nth-child(n+3)
+        display: none
+
+    .e-c-date
+        font-size: 20px
+
+    .e-c-excerpt
+        font-size: global.$font-small
+        line-height: 30px
